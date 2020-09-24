@@ -1,23 +1,34 @@
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.navbar a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.center-align-style {
+    text-align:center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.home-page-title {
+    text-align:center;
+    width:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-page-paragraph {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+div.about-me-text {
+    margin-left:5%;
+    margin-right:5%;
+}
+
