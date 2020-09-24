@@ -1,23 +1,16 @@
 .navbar a:hover {
-background-color: #ddd;
+background-color: blue;
 color: black;
 }
 
 .navbar a.active {
 background-color: #4CAF50;
-color: white;
+color: navbar-light;
 }
 
-.center-align-style {
-    text-align:center;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
-.home-page-title {
-    text-align:center;
-    width:100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.text-container {
+    margin:5%;
 }
 
 .home-page-paragraph {
@@ -30,5 +23,12 @@ color: white;
 div.about-me-text {
     margin-left:5%;
     margin-right:5%;
+}
+
+
+@media(min-width:800px) {
+    navbar {
+        background-color:purple;
+    }
 }
 
