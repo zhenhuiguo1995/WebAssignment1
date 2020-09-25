@@ -1,6 +1,7 @@
 .navbar {
     margin-left:10%;
     margin-right:10%;
+    margin-bottom: 20px;
     color:white;
 }
 
@@ -30,4 +31,13 @@ color: navbar-light;
 
 hr.dashed {
     border-top: 3px dashed #bbb;
-  }
+}
+
+.grid-margin {
+    margin-right: 10px;
+}
+
+.contact-box {
+    text-align:left;
+    width:40px;
+}

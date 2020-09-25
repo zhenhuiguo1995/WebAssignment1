@@ -2,13 +2,17 @@
 
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Projects</title>
         <link rel="stylesheet" href="../default.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-    <body class="text-container">
+    <body>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <span class="navbar-brand"><img src="../pic.jpeg" alt="my personal pic" width="40px" height="40px"></span>
             <span class="navbar-brand">Zhenhui Guo</span>
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -26,7 +30,8 @@
             </ul>
         </nav>
 
-        <div>
+        <div class="text-container">
+          <div>
           <a href="http://todo-app-zhenhui.s3-website-us-east-1.amazonaws.com/"><p class="font-italic">Todo Management Web App</p></a>
           <ul>
             <li>
@@ -43,19 +48,20 @@
                 Deployed the application on Amazon Web Services
             </li>
           </ul>
-        </div>
+          </div>
 
         <hr class="dashed">
-        <div>
-          <a href="https://github.com/zhenhuiguo1995/DistributedChattingServer"><p class="font-italic">Distributed Chatting Server</p></a>
-          <ul>
-            <li>
-                Built a distributed chatting system where a client directly communicates with other clients
-            </li>
-            <li>
-                Designed the necessary services and split the services into Microservices; Implemented two-phase commit algorithm to handle distributed transaction; implemented group communication with multi-casting for client-to-client interaction; implemented mutual exclusion with a shared lock to handle concurrent access to shared resources
-            </li>
-          </ul>
+          <div>
+            <a href="https://github.com/zhenhuiguo1995/DistributedChattingServer"><p class="font-italic">Distributed Chatting Server</p></a>
+            <ul>
+              <li>
+                  Built a distributed chatting system where a client directly communicates with other clients
+              </li>
+              <li>
+                  Designed the necessary services and split the services into Microservices; Implemented two-phase commit algorithm to handle distributed transaction; implemented group communication with multi-casting for client-to-client interaction; implemented mutual exclusion with a shared lock to handle concurrent access to shared resources
+              </li>
+            </ul>
+          </div>
         </div>
     </body>
 </html>
