@@ -1,3 +1,15 @@
+.navbar {
+    margin-left:10%;
+    margin-right:10%;
+    color:white;
+}
+
+.text-container {
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
 .navbar a:hover {
 background-color:blue;
 color: black;
@@ -8,25 +20,12 @@ background-color: #4CAF50;
 color: navbar-light;
 }
 
-.text-container {
-    margin-top:4%;
-    margin-left:1%;
-    margin-right:2%
-}
-
-.navbar.container-panel {
-    width:90%;
-    margin-left: 5%;
-}
-
 .contact-page::first-letter {
     text-transform: capitalize;
 }
 
 .right-align {
-    margin-left: auto;
-    position:fixed;
-    right:5%;
+    float:right;
 }
 
 hr.dashed {
