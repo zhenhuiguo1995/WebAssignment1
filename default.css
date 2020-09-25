@@ -28,3 +28,7 @@ color: navbar-light;
     position:fixed;
     right:5%;
 }
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
