@@ -1,5 +1,5 @@
 .navbar a:hover {
-background-color: blue;
+background-color:blue;
 color: black;
 }
 
@@ -8,27 +8,23 @@ background-color: #4CAF50;
 color: navbar-light;
 }
 
-
 .text-container {
-    margin:5%;
+    margin-top:4%;
+    margin-left:1%;
+    margin-right:2%
 }
 
-.home-page-paragraph {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:5%;
-    margin-right:5%;
+.navbar.container-panel {
+    width:90%;
+    margin-left: 5%;
 }
 
-div.about-me-text {
-    margin-left:5%;
-    margin-right:5%;
+.contact-page::first-letter {
+    text-transform: capitalize;
 }
 
-
-@media(min-width:800px) {
-    navbar {
-        background-color:purple;
-    }
+.right-align {
+    margin-left: auto;
+    position:fixed;
+    right:5%;
 }
-
