@@ -1,0 +1,8 @@
+.contact-page::first-letter {
+    text-transform: capitalize;
+}
+
+.contact-box {
+    text-align:left;
+    width:40px;
+}

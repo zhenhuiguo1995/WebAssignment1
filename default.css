@@ -5,12 +5,6 @@
     color:white;
 }
 
-.text-container {
-    margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
-}
-
 .navbar a:hover {
 background-color: blue;
 color: black;
@@ -25,47 +19,16 @@ padding-bottom: 10px;
 padding-top: 10px;
 }
 
-.contact-page::first-letter {
-    text-transform: capitalize;
-}
-
-.right-align {
-    float:right;
+.text-container {
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 hr.dashed {
     border-top: 3px dashed #bbb;
 }
 
-.grid-margin {
-    margin-right: 10px;
-}
 
-.contact-box {
-    text-align:left;
-    width:40px;
-}
 
-.hobbies-container {
-    margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
-    height: 500px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
 
-.hobbies-square {
-    background-color:purple;
-    
-    border: black 1px solid;
-    content: '';
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.red {
-    background:red;
-    flex:0 0 20px;
-}
