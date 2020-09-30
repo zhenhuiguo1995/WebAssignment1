@@ -12,13 +12,17 @@
 }
 
 .navbar a:hover {
-background-color:blue;
+background-color: blue;
 color: black;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 .navbar a.active {
 background-color: #4CAF50;
 color: navbar-light;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 .contact-page::first-letter {
@@ -40,4 +44,22 @@ hr.dashed {
 .contact-box {
     text-align:left;
     width:40px;
+}
+
+.hobbies-container {
+    height:500px;
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+    display:flex;
+    flex-direction: column;
+}
+
+.hobbies-square {
+    margin-top:5%;
+    height:50px;
+    width:50px;
+    background-color:white;
+    border: solid black 1px;
+    content: '';
 }
