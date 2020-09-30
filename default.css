@@ -1,8 +1,8 @@
 .navbar {
     margin-left:10%;
     margin-right:10%;
-    margin-bottom: 20px;
     color:white;
+    position:fixed;
 }
 
 .navbar a:hover {
@@ -20,13 +20,25 @@ padding-top: 10px;
 }
 
 .text-container {
-    margin-top:5%;
+    margin-top:70px;
     margin-left:10%;
     margin-right:10%;
 }
 
 hr.dashed {
     border-top: 3px dashed #bbb;
+}
+
+@media (min-width:278px) and (max-width:575px) {
+    .text-container {
+        margin-top:200px;
+    }
+}
+
+@media (max-width:277px){
+    .text-container {
+        margin-top:240px;
+    }
 }
 
 
