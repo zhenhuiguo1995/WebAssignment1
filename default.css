@@ -32,13 +32,23 @@ hr.dashed {
 @media (min-width:278px) and (max-width:575px) {
     .text-container {
         margin-top:200px;
+        margin-left:0%;
+        margin-right:0%;
+    }
+
+    .navbar {
+        margin-left:0%;
+        margin-right:0%;
     }
 }
 
 @media (max-width:277px){
     .text-container {
         margin-top:240px;
+        margin-left:0%;
+        margin-right:0%;
     }
+
 }
 
 

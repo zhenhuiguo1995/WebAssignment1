@@ -36,13 +36,15 @@ img {
 }
 
 @media (min-width:277px) and (max-width:575px) {
-    .text-container {
+    .hobbies-container {
         margin-top:200px;
+        margin-left:0%;
+        margin-right:0%;
     }
 }
 
 @media (max-width:276px){
-    .text-container {
+    .hobbies-container {
         margin-top:260px;
     }
 }
