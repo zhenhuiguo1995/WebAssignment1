@@ -1,0 +1,21 @@
+.hobbies-container {
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies-image-square {
+    background-color:white;
+    height:200px;
+    flex:0.08 1 auto;
+}
+
+.hobbies-text-square{
+    background-color:white;
+    height:200px;
+    
+    flex:1 1 auto;
+}
